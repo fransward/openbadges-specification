@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "obi": "https://w3id.org/openbadges#",
+    "schema": "http://schema.org/",
+    "extensions": "https://w3id.org/openbadges/extensions#",
+    "Language": "schema:Language"
+  },
+  "obi:validation": [
+    {
+      "obi:validatesType": "extensions:Language",
+      "obi:validationSchema": "https://openbadgespec.org/extensions/languageExtension/schema.json"
+    }
+  ]
+}

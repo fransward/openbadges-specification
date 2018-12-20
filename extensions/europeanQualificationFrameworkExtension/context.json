@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "obi": "https://w3id.org/openbadges#",
+    "schema": "http://schema.org/",
+    "extensions": "https://w3id.org/openbadges/extensions#",
+    "EQF": "schema:EQF"
+  },
+  "obi:validation": [
+    {
+      "obi:validatesType": "extensions:europeanQualificationFramework",
+      "obi:validationSchema": "https://openbadgespec.org/extensions/europeanQualificationFrameworkExtension/schema.json"
+    }
+  ]
+}

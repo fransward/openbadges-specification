@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "EQF - European Qualification Framework Extension",
+  "description": "An extension that allows you to add an EQF - European Qualification Framework value to the badge class.",
+  "type": "object",
+  "properties": {
+    "EQF": {
+      "type": "number"
+    }
+  },
+  "required": ["EQF"]
+}  

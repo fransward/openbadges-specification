@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "obi": "https://w3id.org/openbadges#",
+    "schema": "http://schema.org/",
+    "extensions": "https://w3id.org/openbadges/extensions#",
+    "gradingTable": "schema:gradingTable"
+  },
+  "obi:validation": [
+    {
+      "obi:validatesType": "extensions:gradingTable",
+      "obi:validationSchema": "https://openbadgespec.org/extensions/gradingTableExtension/schema.json"
+    }
+  ]
+}

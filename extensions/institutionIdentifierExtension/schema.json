@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Institution Identifier Extension",
+  "description": "An extension that allows you to add an institution identifier.",
+  "type": "object",
+  "properties": {
+    "institutionIdentifier": {
+      "type": "string"
+    }
+  },
+  "required": ["institutionIdentifier"]
+}

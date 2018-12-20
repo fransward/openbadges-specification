@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Learning Outcome Extension",
+  "description": "An extension that allows you to add the learning outcome statement.",
+  "type": "object",
+  "properties": {
+    "LearningOutcome": {
+      "type": "string"
+    }
+  },
+  "required": ["LearningOutcome"]
+}  

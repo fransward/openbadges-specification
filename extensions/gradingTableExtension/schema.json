@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Grading Table Extension",
+  "description": "An extension that allows you to add a grading table URL.",
+  "type": "object",
+  "properties": {
+    "gradingTable": {
+      "type": "url"
+    }
+  },
+  "required": ["gradingTable"]
+}    

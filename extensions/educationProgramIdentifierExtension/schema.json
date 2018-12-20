@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Education Program Identifier Extension. In Netherlands ISAT code.",
+  "description": "An extension that allows you to add an identifier that identifies the education program.",
+  "type": "object",
+  "properties": {
+    "identifierType": {
+      "type": "string"
+    },
+    "identifierValue": {
+      "type": "string"
+    }
+  },
+  "required": ["identifierType", "identifierType"],
+}  

@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "European Credits Transfer System Extension",
+  "description": "An extension allowing to add an European Credits Transfer System (ECTS) value to the badge class.",
+  "type": "object",
+  "properties": {
+    "ECTS": {
+      "type": "number"
+    }
+  },
+  "required": ["ECTS"]
+}
